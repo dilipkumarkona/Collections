@@ -10,6 +10,7 @@ namespace Collections
     {
         public string Name { get; set; }
         public string Code { get; set; }
+        public int Population { get; set; }
 
         public Country(string name, string code)
         {
