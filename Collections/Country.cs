@@ -11,7 +11,7 @@ namespace Collections
         public string Name { get; set; }
         public string Code { get; set; }
         public int Population { get; set; }
-
+        public int TestProp { get; set; }
         public Country(string name, string code)
         {
             Name = name;
